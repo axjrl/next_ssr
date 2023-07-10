@@ -1,0 +1,31 @@
+.avatar {
+  position: relative;
+  width: 200px;
+  .pokemon {
+    border: 1px solid rgba(128, 128, 128, 0.20);
+  }
+  .left {
+    transform: rotateY(180deg);
+    left: -15px;
+  }
+  .right {
+    right: -15px;
+  }
+  .left, .right {
+    top: 85px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 1px solid gainsboro;
+    background-color: white;
+    cursor: pointer;
+    img {
+      margin-top: 3px;
+    }
+    transition: background 0.25s ease-in-out;
+    &:hover {
+      background-color: rgb(187, 185, 185)
+    }
+  }
+}

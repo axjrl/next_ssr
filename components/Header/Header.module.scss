@@ -1,0 +1,24 @@
+.header {
+  background-color: #ef5350;
+  height: 60px;
+  width: 100%;
+  .navLink {
+    color: white;
+  }
+  a {
+    font-weight: bold;
+    margin: 8px;
+
+  }
+  nav {
+    margin-bottom: 3px;
+  }
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.active {
+  color: #FFCC00;
+  border-bottom: 4px solid  #FFCC00;
+  -webkit-text-stroke: 0.5px #D5A100;
+}

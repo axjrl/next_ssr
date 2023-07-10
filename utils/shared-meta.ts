@@ -1,0 +1,1 @@
+export const openGraphImageDefault = {images: ["/next.svg"]}

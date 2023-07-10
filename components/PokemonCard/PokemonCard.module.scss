@@ -1,0 +1,40 @@
+.card {
+  border-radius: 5px;
+  width: 120px;
+  text-align: center;
+  height: 200px;
+  position: relative;
+  background-image: radial-gradient(#226b11 1.25px, #ffffff 1.25px);
+  background-size: 25px 25px;
+  border: 2px solid #e5e5f7;
+  cursor: pointer;
+}
+.name {
+  margin: 0;
+  font-size: 15px;
+  font-weight: bolder;
+  color: black;
+}
+.add {
+
+}
+.heart {
+  position: absolute;
+  top: -6px;
+  right: -8px;
+}
+.hp {
+  margin: 0;
+  position: absolute;
+  top: 8px;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  right: 9px;
+}
+.info {
+  padding: 16px 0;
+  width: 100%;
+  border-top: 2px solid #e5e5f7;
+  background-color: white;
+}

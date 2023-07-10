@@ -1,0 +1,28 @@
+.page {
+  .name {
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    margin: 20px 0;
+  }
+  .info {
+    padding: 0 80px;
+    display: flex;
+  }
+  .stats {
+    margin-left: 40px;
+    .stat {
+      display: flex;
+      margin-bottom: 8px;
+      p {
+        font-size: 17px;
+      }
+      .statName {
+        font-weight: 700;
+      }
+      .value {
+        margin-left: 8px;
+      }
+    }
+  }
+}
